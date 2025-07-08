@@ -80,4 +80,4 @@ Este proyecto propone **el diseño y modelado de una base de datos profesional**
 - Producto (FK)  
 - Cantidad  
 - Precio unitario (registrado en el momento de la venta)  
-- Subtotal (precio unitario x cantidad)  ~~~~
+- Subtotal (precio unitario x cantidad)
