@@ -2,7 +2,7 @@
 
 El siguiente diagrama conceptual representa las **entidades clave del sistema de ventas** y sus relaciones principales. Este modelo es una vista de alto nivel que se centra en **comprender el negocio**, sin detallar tipos de datos ni restricciones técnicas.
 
-![Diagrama Conceptual](diagrama_conceptual.png)
+![Diagrama Conceptual](img/diagrama_conceptual.png)
 
 ---
 
