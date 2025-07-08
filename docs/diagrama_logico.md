@@ -6,7 +6,7 @@ Este modelo proporciona una **vista intermedia entre el concepto de negocio y la
 
 Aquí se definen las claves, pero no se detallan los tipos de datos específicos ni las restricciones completas (eso se aborda en el modelo físico).
 
-![Diagrama Lógico](img/diagrama_logico.jpg)
+![Diagrama Lógico](img/diagrama_logico.jpeg)
 
 ## 🔑 Estructura de las Tablas
 
