@@ -5,7 +5,7 @@ Este proyecto presenta un modelo de base de datos profesional para gestionar un 
 ## 📚 Contenido
 
 - 🎯 [Caso de Negocio](docs/caso_negocio.md)
-- 📂 [Diagrama Conceptual](docs/diagrama_conceptual.md))
+- 📂 [Diagrama Conceptual](docs/diagrama_conceptual.md)
 - 📊 Diagrama Lógico
 - ⚙️ Diagrama Físico
 - 🗄️ Scripts SQL
