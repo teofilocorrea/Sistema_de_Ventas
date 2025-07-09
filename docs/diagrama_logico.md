@@ -37,6 +37,6 @@ Aquí se definen las claves, pero no se detallan los tipos de datos específicos
 - Cada **orden** está asociada a un cliente y a un método de pago.
 - Cada **orden** puede tener múltiples detalles.
 - Cada **detalle de orden** está asociado a un solo producto y a una orden específica,
-formando una clave primaria compuesta (OrderId + ProductId).
+formando una clave primaria compuesta **(OrderId + ProductId)**.
 - Un **producto** pertenece a una categoría.
 - Cada **cliente** tiene asociado un tipo de documento.
