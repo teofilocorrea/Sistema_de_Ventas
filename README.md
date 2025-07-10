@@ -1,4 +1,4 @@
-![title_sistema_ventas](img/title_sistema_ventas.png)
+![Portada del Proyecto](docs/img/title_sistema_ventas.png)
 
 Este proyecto presenta un modelo de base de datos profesional para gestionar un sistema de ventas. Incluye la estructura conceptual, lógica y física, con un enfoque en la organización, trazabilidad y escalabilidad de la información.
 
