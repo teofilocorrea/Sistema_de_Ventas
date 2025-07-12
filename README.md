@@ -8,7 +8,7 @@ Este proyecto presenta un modelo de base de datos profesional para gestionar un 
 - 📂 [Diagrama Conceptual](docs/diagrama_conceptual.md)
 - 📊 [Diagrama Lógico](docs/diagrama_logico.md)
 - ⚙️ [Diagrama Físico](docs/diagrama_fisico.md)
-- 🗄️ [Scripts SQL] (/scripts_sqlserver)
+- 🗄️ [Scripts SQL](/scripts_sqlserver)
 
 ## 🚀 Objetivo
 
