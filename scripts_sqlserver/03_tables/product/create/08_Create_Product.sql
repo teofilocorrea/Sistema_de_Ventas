@@ -1,7 +1,7 @@
 -- ========================================
 -- CreateTable_Product.sql
--- Crea la tabla [sales.Product] del sistema de ventas
--- Esta tabla registra los productos disponibles para la venta, asociados a su categoría mediante [sales.ProductCategory]
+-- Crea la tabla [product.Product] del sistema de ventas
+-- Esta tabla registra los productos disponibles para la venta, asociados a su categoría mediante [product.ProductCategory]
 -- Autor: Teófilo Correa Rojas
 -- ========================================
 
