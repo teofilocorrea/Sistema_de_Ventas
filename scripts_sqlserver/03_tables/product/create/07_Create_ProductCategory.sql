@@ -7,7 +7,7 @@
 
 USE SalesSystem
 
-CREATE TABLE sales.ProductCategory
+CREATE TABLE product.ProductCategory
 (
     -- 🔑 Clave primaria (PK) con autoincremento
     ProductCategoryId INT IDENTITY (1,1) NOT NULL,
