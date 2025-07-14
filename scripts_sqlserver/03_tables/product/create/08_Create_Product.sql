@@ -8,7 +8,7 @@
 USE SalesSystem;
 GO
 
-CREATE TABLE sales.Product
+CREATE TABLE product.Product
 (
     -- 🔑 Clave primaria (PK) con autoincremento
     ProductId INT IDENTITY (1,1) NOT NULL,
