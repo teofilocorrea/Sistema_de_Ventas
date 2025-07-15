@@ -7,6 +7,9 @@
 -- Autor: Teófilo Correa Rojas
 -- ========================================
 
+USE SalesSystem;
+GO
+
 -- FKNA - No permite eliminar ni actualizar si existen registros hijos.
 ALTER TABLE client.Customer
     ADD CONSTRAINT FK_Customer_DocumentTypeId

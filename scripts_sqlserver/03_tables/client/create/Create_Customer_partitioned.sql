@@ -17,6 +17,17 @@ CREATE TABLE client.Customer
     DocumentTypeId INT NOT NULL,
 
      -- 📄 Otras columnas
+    DocumentNumber NVARCHAR(25) NOT NULL
+        CONSTRAINT CK_DocumentNum_Validate_Ced_Pass_Rnc
+        CHECK (
+        -- Cédula dominicana: 000-0000000-0
+        DocumentNumber LIKE '[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[0-9]'
+        -- RNC dominicano: 0-00000000-0
+        OR DocumentNumber LIKE '[0-9]-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[0-9]'
+        -- Pasaporte: letras y números (ej. PA1234567)
+        OR DocumentNumber LIKE '[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
+        ),
+
     FirstName NVARCHAR(50) NOT NULL
         CONSTRAINT CK_Customer_FirstName_LatinOnly
         CHECK ( FirstName NOT LIKE N'%[^A-Za-zÁÉÍÓÚáéíóúÑñ ]%'),

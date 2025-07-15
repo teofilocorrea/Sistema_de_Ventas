@@ -25,14 +25,15 @@ Cada tabla está organizada por **área funcional**, permitiendo visualizar fác
 
 ### Tabla: Customer
 
-| Clave | Campo         | Tipo de datos      | Restricciones        | Acción FK             | Descripción / Comentario             |
-|-------|---------------|--------------------|-----------------------|------------------------|--------------------------------------|
-| PK    | CustomerId    | INT IDENTITY (1,1) | PRIMARY KEY           | -                      | Identificador del cliente            |
-| FK    | DocumentTypeId| INT                | NOT NULL              | ON DELETE NO ACTION    | Tipo de documento                    |
-| -     | FirsName      | NVARCHAR(50)       | NOT NULL              | -                      | Nombre del cliente                   |
-| -     | LastName      | NVARCHAR(50)       | NOT NULL              | -                      | Apellido del cliente                 |
-| -     | Email         | VARCHAR(100)       | UNIQUE, NOT NULL      | -                      | Correo del cliente                   |
-| -     | Registration  | DATETIME2          | NOT NULL              | -                      | Fecha de registro                    |
+| Clave | Campo          | Tipo de datos      | Restricciones        | Acción FK             | Descripción / Comentario  |
+|-------|----------------|--------------------|-----------------------|------------------------|---------------------------|
+| PK    | CustomerId     | INT IDENTITY (1,1) | PRIMARY KEY           | -                      | Identificador del cliente |
+| FK    | DocumentTypeId | INT                | NOT NULL              | ON DELETE NO ACTION    | Tipo de documento         |
+| -     | DocumentNumber | NVARCHAR(25)       | NOT NULL              | -                      | Numero de documento       |
+| -     | FirsName       | NVARCHAR(50)       | NOT NULL              | -                      | Nombre del cliente        |
+| -     | LastName       | NVARCHAR(50)       | NOT NULL              | -                      | Apellido del cliente      |
+| -     | Email          | VARCHAR(100)       | UNIQUE, NOT NULL      | -                      | Correo del cliente        |
+| -     | Registration   | DATETIME2          | NOT NULL              | -                      | Fecha de registro         |
 
 ---
 
