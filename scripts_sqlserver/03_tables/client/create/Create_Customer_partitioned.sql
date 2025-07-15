@@ -27,11 +27,12 @@ CREATE TABLE client.Customer
 
     Email NVARCHAR(100) NOT NULL,
         CONSTRAINT CK_Customer_Email_Valid CHECK (Email LIKE '%@%.%'),
-        CONSTRAINT UQ_Customer_Email UNIQUE(Email),
+        CONSTRAINT UQ_Customer_Email UNIQUE(Email, Registration),
 
     Registration DATETIME2 NOT NULL,
 
     -- 🧷 Restricción de clave primaria
-    CONSTRAINT PK_CustomerId PRIMARY KEY (CustomerId)
-);
+    CONSTRAINT PK_CustomerId PRIMARY KEY (CustomerId, Registration)
+)
+ON PS_Customer_ByYear(Registration);
 GO
