@@ -1,12 +1,3 @@
--- ========================================
--- CreateTable_PaymentMethod.sql
--- Crea la tabla [sales.PaymentMethod] del sistema de ventas.
--- Esta tabla actúa como catálogo de los distintos métodos de pago disponibles,
--- tales como efectivo, tarjeta de crédito, transferencia bancaria, entre otros.
--- Será referenciada por la tabla [sales.Orders] para registrar el método utilizado en cada orden.
--- Autor: Teófilo Correa Rojas
--- ========================================
-
 USE SalesSystem;-- ========================================
 -- CreateTable_PaymentMethod.sql
 -- Crea la tabla [sales.PaymentMethod] del sistema de ventas.
