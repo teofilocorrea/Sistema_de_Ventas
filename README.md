@@ -10,6 +10,7 @@ Este proyecto presenta un modelo de base de datos profesional para gestionar un 
 - ⚙️ [Diagrama Físico](docs/diagrama_fisico.md)
 - 🔗 [Relaciones entre Tablas](docs/relaciones_entre_tablas.md)
 - 🧩 [Estrategia de Particionado](docs/estrategia_particionado.md)
+- 🛡️ [Estrategia de Seguridad](docs/estrategia_seguridad_masking.md)
 - 🗄️ [Scripts SQL](/scripts_sqlserver)
 
 ## 🚀 Objetivo
