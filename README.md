@@ -9,6 +9,7 @@ Este proyecto presenta un modelo de base de datos profesional para gestionar un 
 - 📊 [Diagrama Lógico](docs/diagrama_logico.md)
 - ⚙️ [Diagrama Físico](docs/diagrama_fisico.md)
 - 🔗 [Relaciones entre Tablas](docs/relaciones_entre_tablas.md)
+- 🧩 [Estrategia de Particionado](docs/estrategia_particionado.md)
 - 🗄️ [Scripts SQL](/scripts_sqlserver)
 
 ## 🚀 Objetivo
